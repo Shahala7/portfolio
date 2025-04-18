@@ -1,0 +1,14 @@
+
+.container{
+    color:black;
+    background-color:rgb(247, 252, 249);
+    margin-top: '70px';
+    margin-bottom: '200px';
+}
+.textContainer{
+    border-radius: 60px;
+    margin-left: 100px;
+}
+.personal-image:hover {
+    transform: scale(1.09);
+  }
