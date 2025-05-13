@@ -14,17 +14,7 @@ export default function Project(){
                 <h4>https://github.com/Shahala7/Daw-cosmetics.git</h4>
                 </div>
         
-                <p>     Built a feature-rich and user-friendly e-commerce platform tailored for a cosmetics brand using Node.js, Express, EJS, and JavaScript. The application includes a responsive and intuitive UI, ensuring seamless navigation across user and admin interfaces.
-
-Developed a robust backend architecture with Node.js to handle user management, product listings, order processing, and inventory tracking efficiently.
-
-Integrated multiple payment methods, including Cash on Delivery (COD) and online payments via the Razorpay API, ensuring a smooth and secure checkout experience.
-
-Implemented OTP-based user registration to enhance account security and user trust.
-
-Designed a comprehensive admin dashboard for managing users, categories, products, stock levels, and promotional offers, along with real-time sales report generation.
-
-Added automated invoice generation using Invoice Generator, enabling users to download order receipts directly from their account.</p>
+                <p>     Built a feature-rich and user-friendly e-commerce platform tailored for a cosmetics brand using Node.js, Express, EJS, and JavaScript. The UI/UX prototype was designed in Figma to ensure a visually appealing and intuitive interface across both user and admin views. The application includes a responsive design for seamless navigation and interaction. A robust backend was developed using Node.js and Express to efficiently manage user accounts, product listings, order processing, inventory tracking, and category management. The platform supports multiple payment methods, including Cash on Delivery (COD) and secure online payments through the Razorpay API. To enhance user security and trust, OTP-based user registration was implemented. Additionally, a comprehensive admin dashboard was created to manage users, stock levels, promotional offers, and generate real-time sales reports. Automated invoice generation was integrated using Invoice Generator, enabling users to download order receipts directly from their accounts.</p>
               <div className="semiheading">
                 <h3>Netflix Clone</h3>
                 </div>

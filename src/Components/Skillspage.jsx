@@ -2,7 +2,7 @@ import React from "react";
 import "./skills.css"
 
 import {FaHtml5,FaCss3Alt,FaJs,FaReact,FaNodeJs,FaGitAlt,FaDatabase,} from "react-icons/fa";
-import { SiMongodb, SiTailwindcss, SiExpress } from "react-icons/si";
+import { SiMongodb, SiTailwindcss, SiExpress,SiFigma  } from "react-icons/si";
 
 export default function Skills(){
 
@@ -17,6 +17,7 @@ export default function Skills(){
         { name: "Tailwind CSS", icon: <SiTailwindcss className="icon tailwind" /> },
         { name: "Git", icon: <FaGitAlt className="icon git" /> },
         { name: "Database", icon: <FaDatabase className="icon db" /> },
+        { name: "Figma", icon: <SiFigma className="icon figma" /> }
       ];
 
     return(
