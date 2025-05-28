@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "./Header";
 import "./skills.css"
 
 import {FaHtml5,FaCss3Alt,FaJs,FaReact,FaNodeJs,FaGitAlt,FaDatabase,} from "react-icons/fa";
@@ -21,6 +22,8 @@ export default function Skills(){
       ];
 
     return(
+      <div>
+       <Header/>
         <div className="skills-page" style={{height:'50px',width:'1100px'}}>
         <h2 className="skills-heading">My Skills</h2>
         <div className="skills-grid">
@@ -31,6 +34,7 @@ export default function Skills(){
             </div>
           ))}
         </div>
+      </div>
       </div>
     )
 }

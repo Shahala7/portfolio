@@ -1,8 +1,12 @@
 import React from "react";
+import Header from "./Header";
 
 
 export default function About(){
     return(
+        <div>
+             <Header/>
+       
         <div className="Abtmain" style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginRight:'70px',marginLeft:'50px',marginBottom:'30px',marginTop:'40px'}} >
             <div className="Aboutimage">
             <img className="personal-image"  src={"assets/profile11.jpeg"} alt=" " style={{height:"550px",width:"250"}} />
@@ -16,5 +20,6 @@ export default function About(){
 </div>
     
         </div>
+         </div>
     )
 }

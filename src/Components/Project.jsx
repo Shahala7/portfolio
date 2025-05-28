@@ -1,8 +1,11 @@
 import React from "react";
+import Header from "./Header";
 import "./skills.css"
 
 export default function Project(){
     return(
+        <div>
+         <Header/>
         <div className="project" style={{height:'590px',width:'1200px',marginLeft:'130px'}}>
             <div style={{marginLeft:'470px'}}>
             <h1>My Projects</h1>
@@ -32,6 +35,7 @@ Movie Trailers & Details – Integrated video previews and detailed movie/show i
  Modern & Responsive Design – Utilized HTML, CSS, Bootstrap, and React.js to create a sleek, fully responsive UI that adapts seamlessly to all devices. 
 Interactive UI – Designed an engaging and visually appealing layout with smooth animations, transitions, and hover effects. 
 Projects Showcase – Displayed detailed descriptions of my projects.</p>
+        </div>
         </div>
     )
 }
